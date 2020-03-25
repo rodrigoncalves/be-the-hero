@@ -1,6 +1,7 @@
 import React from 'react'
-import Logon from './pages/Logon'
 
 import './global.css'
 
-export default () => <Logon />
+import Routes from './routes'
+
+export default () => <Routes />
