@@ -1,8 +1,6 @@
 import React from 'react'
-import Header from './Header'
+import Logon from './pages/Logon'
 
-function App() {
-  return <Header>Semana OmniStack</Header>
-}
+import './global.css'
 
-export default App
+export default () => <Logon />
