@@ -1,5 +1,6 @@
 import React from 'react'
 import { FiLogIn } from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 import './styles.css'
 
@@ -18,10 +19,10 @@ export default () => (
           Entrar
         </button>
 
-        <a href="/register">
+        <Link to="/register" className="back-link">
           <FiLogIn size={16} color="#e02041" />
           Não tenho cadastro
-        </a>
+        </Link>
       </form>
     </section>
     <img src={heroesImg} alt="heroes" />
