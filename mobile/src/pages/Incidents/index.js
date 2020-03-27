@@ -1,12 +1,12 @@
 import React from 'react'
 import { View, Image, Text, TouchableOpacity } from 'react-native'
 import { Feather } from '@expo/vector-icons'
+import { FlatList } from 'react-native-gesture-handler'
 import { useNavigation } from '@react-navigation/native'
 
 import styles from './styles'
 
 import logoImg from '../../assets/logo.png'
-import { FlatList } from 'react-native-gesture-handler'
 
 export default function Incidents() {
   const navigation = useNavigation()
